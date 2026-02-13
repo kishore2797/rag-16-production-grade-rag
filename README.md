@@ -75,6 +75,18 @@ npm run dev
 
 Open http://localhost:5173 — manage tenants, upload documents, run RAG queries per tenant.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+pip install -r requirements.txt
+python example.py
+```
+
+It isolates data per tenant with separate ChromaDB collections.
+
 ## 📖 What You'll Learn
 
 1. Multi-tenant data isolation patterns for SaaS RAG
